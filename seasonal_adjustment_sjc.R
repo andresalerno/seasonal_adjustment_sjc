@@ -65,7 +65,7 @@ con <- dbConnect(RMySQL::MySQL(),
                  host = "198.199.73.180",
                  port = 3306,
                  user = "root",
-                 password = "aspartners2018")
+                 password = "")
 
 dbSendQuery(con, "USE public_data")
 
